@@ -38,3 +38,30 @@ void main()
 		
 }
 
+
+
+
+
+Proceso promedio
+	Escribir "Ingrese el primer numero"
+	p=0 
+	Leer a
+	p<-p+a
+	Escribir "Ingrese el segundo numero"
+	Leer a
+	p<-p+a
+	Escribir "Ingrese el tercer numero"
+	Leer a
+	p<-p+a
+	Escribir "Ingrese el cuarto numero"
+	Leer a
+	p<-p+a
+	Escribir "Ingrese el quinto numero"
+	Leer a
+	p<-p+a
+	p<-p/5
+	Escribir "El promedio es:" p 
+	
+
+FinProceso
+
