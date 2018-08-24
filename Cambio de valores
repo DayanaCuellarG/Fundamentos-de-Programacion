@@ -1,0 +1,30 @@
+// Cambio de valores.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+
+using namespace std;
+
+
+void main()
+{
+	int auxiliar, A , B;
+	cout<<"Introducir valor entero de A"<<endl;
+	cin>>A;
+	cout<<"Introducir valor entero de B"<<endl;
+	cin>>B;
+	auxiliar=A;
+	A=B;
+	B=auxiliar;
+	cout<<"Ahora el valor de A es:"<<endl;
+	cout<<A<<endl;
+	cout<<"Ahora el valor de B es:"<<endl;
+	cout<<B<<endl;
+
+	getch();
+
+}
+
