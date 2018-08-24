@@ -28,3 +28,17 @@ void main()
 
 }
 
+
+
+
+
+
+
+Proceso areayperimetrodelacircunferencia 
+	Escribir "Ingrese el radio"
+	Leer r
+	Area<-r*r*3.1416
+	Escribir "El area es:" Area
+	perimetro<-2*r*3.1416
+	Escribir "El perimetro es:" perimetro
+FinProceso
