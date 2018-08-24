@@ -28,3 +28,16 @@ void main()
 	getch();
 }
 
+
+
+
+
+Proceso Distanciaentredospuntos
+	Escribir "Ingrese el primer punto"
+	Leer X1,Y1 
+	Escribir "Ingrese el segundo punto"
+	Leer X2,Y2 
+	D=RC((X2-X1)^2+(Y2-Y1)^2)
+	Escribir D
+
+FinProceso
