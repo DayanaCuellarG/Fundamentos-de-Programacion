@@ -1,0 +1,30 @@
+// Perimetro de la circunferencia.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "stdio.h"
+#define pi 3.141592
+ 
+using namespace std;
+
+
+void main()
+{
+	float perimetro, r,area ;
+
+	cout<<"Introduzca r"<<endl;
+	cin>>r;
+	
+	perimetro= 2* pi* r; 
+	area= r*r*pi;
+	cout<<"El area es:"<<area<<endl;
+	cout<<"El perimetro es:"<<endl;
+	cout<<perimetro;
+
+	getch();
+
+
+}
+
