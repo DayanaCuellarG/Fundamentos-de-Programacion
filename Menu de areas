@@ -64,9 +64,3 @@ float areacirculo (float r)
 	area= pi*r*r;
 	return area;
 }
-
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
