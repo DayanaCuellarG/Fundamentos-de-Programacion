@@ -1,0 +1,13 @@
+// vectores.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define MAX 100
+
+using namespace std;
+
+void cargar(int vec[],int tam);
+void ordenar(int vec[],int tam);
+void mostrar(int vec[],int tam);
