@@ -1,0 +1,93 @@
+
+// examinito 3"||1y3Defines the entry point for the console application.
+//
+
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void leer (int vector[], int tam);
+void arreglo (int vector[], int tam, int x);
+#define max 100
+void main()
+{
+	int vector[max];
+	int tam,x;
+	cin >> tam;
+	cout << "ingrese en vector"<<endl;
+	leer(vector,tam);
+	cin >> x;
+	arreglo(vector,tam,x);
+	getch();
+}
+void leer (int vector[], int tam)
+{
+	for(int i=0;i<tam;i++)
+		cin >> vector[i];
+
+}
+
+
+void arreglo (int vector[], int tam, int x)
+{
+	for (int i=0; i<tam; i++)
+		if (vector[i]==x)
+			cout<<"el arreglo es"<<i<<endl;
+}
+
+
+
+
+//ejercicio 3 examinito
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+bool partidario(int arreglo[], int tam);
+void leer(int arreglo[],int tam)
+
+	void main()
+{
+	bool r;
+	int tam, arreglo [100];
+	cout<<"ingrese el tamanio del vector"<<endl
+	cin>>tam;
+	cout<<"ingrese el vector"<<endl;
+	leer(arreglo, tam);
+	r=partidario(arreglo,tam);
+	if (r==true)
+		cout<<"el arreglo es partidario"<<endl;
+	else 
+		cout<<"el arreglo no es partidario"<<endl;
+
+	getch();
+
+	}
+
+	void leer(int arreglo[],int tam)
+	{
+		for(int i=0;i<tam-1;i=+2)
+			cin>>arreglo [i];
+	}
+
+	bool partidario(int arreglo[],int tam)
+	{
+		bool r=false;
+			for(int i=0;i<tam-1;i=+2)
+				for(int j=1;j<tam;j =+2)
+				{
+					if(arreglo [i]>arreglo [j])
+
+				return true;
+					else
+						return r;
+
+				}
+	}
